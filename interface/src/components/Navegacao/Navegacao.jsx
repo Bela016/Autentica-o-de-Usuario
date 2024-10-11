@@ -48,7 +48,7 @@ function Navegacao() {
                             <Nav className="me-auto">
                                 <Nav.Link href="/pessoas" style={estiloNavOptions}>Pessoas</Nav.Link>
                             </Nav>
-                            <p>olá{username}</p>
+                            <Nav.Item style={estiloNavOptions} >olá, {username}</Nav.Item>
                             <Button variant='light' onClick={logout}>Sair</Button>
                         </>
                     ) : (
